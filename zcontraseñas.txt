@@ -1,0 +1,8 @@
+Para calcular la longitud de un string:
+string.size() o string.length()
+
+Extraer carácteres de un string:
+string.at(i) o string[i] # interesantes para un bucle for. Ver reversed-numbers.
+
+
+rm -r build/; mkdir build; cd build; cmake ..; make; cd ..

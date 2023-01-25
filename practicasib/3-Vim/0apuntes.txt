@@ -1,0 +1,40 @@
+Práctica 11/10/2022
+
+Códigos editor VIM:
+
+History, luego !__: ejecuta nuevamente el comando con ese número en el history.
+
+:set nu: mostrar números de líneas.
+ctrl d :page down
+ctrl u : page up
+set nonumber/setnonu: quitar números de líneas
+__ G: Ir a X página
+0: te lleva al principio de línea
+$:  me lleva al final de la línea
+$ G: Ir al final del fichero
+>: Redirigir y sobreescribir
+>>: redirigir y agregar, sin borrar lo que estaba antes
+yy (luego para ponerla) Shift P
+dd: borrar líneas completas.
+Si quiero borrar una línea y luego ponerla en otro lugar, pues hacemos dd y luego Shift p en donde queramos
+w: moverme una palabra para adelante
+b: moverme una palabra para atrás
+dw: borrar una palabra
+r_: reemplazar una letra por _ carácter
+juntar una línea con la siguiente: Shift J (join)
+:x/:wq: Guardar saliendo
+:5,8d: Borrar un rango de líneas. SE QUEDAN EN EL BUFFER.
+:u : undo last change
+:ctrl+r : redo last change
+:5,12s/que/QUE/g: de la línea 5 a la 12, busca (search) la palabra “que”, y cambiar por “QUE”. Go (g)
+:5,12s/que/QUE/gc: de la línea 5 a la 12, busca (search) la palabra “que”, y cambiar por “QUE”. Go (g). Preguntar (c).
+/____: busca los caracteres que se ordenen.
+
+14 de octubre
+
+cpp: ejecuta los programas, quita comentarios y además incluye todas las líneas del archivo iostream, que es el que está en <>
+g++ -c: realizar todo el proceso de compilación excepto el linkeo de un archivo .cc
+\n: retorno de carro (como un enter)
+
+C++: (Práctica 4)
+Git clone https____ nombredeldirectorioqueyoquiera
