@@ -6,3 +6,5 @@ string.at(i) o string[i] # interesantes para un bucle for. Ver reversed-numbers.
 
 
 rm -r build/; mkdir build; cd build; cmake ..; make; cd ..
+
+https://github.com/Leixb/jutge_problems
