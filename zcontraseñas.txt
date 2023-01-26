@@ -7,4 +7,6 @@ string.at(i) o string[i] # interesantes para un bucle for. Ver reversed-numbers.
 
 rm -r build/; mkdir build; cd build; cmake ..; make; cd ..
 
+// Jutge Problems
 https://github.com/Leixb/jutge_problems
+https://github.com/MrRobb/Jutge.org-PRO1
